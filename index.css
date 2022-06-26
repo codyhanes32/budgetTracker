@@ -1,0 +1,50 @@
+body{
+background-color: rgb(174, 224, 240);
+}
+
+.content{
+    padding-left: 37vw;
+    padding-top: 15vh;
+}
+
+.budget-text{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    padding-left: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+}
+
+.tracker-text{
+    color: #3974eb;
+    font-weight: bold;
+    font-size: 120px;
+    margin-top: -40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+button{
+    margin-left: 110px;
+    height: 70px;
+    width: 200px;
+    font-size: 32px;
+    font-family:'Lucida Sans';
+    border-radius: 30%;
+    border: 2px solid black;
+    transition-duration: 0.2s;
+    display: block;
+}
+
+button:hover{
+    background-color: rgb(153, 212, 153);
+}
+
+.expense-button{
+    margin-top: 50px;
+}
+
+.income-button{
+    margin-top: 10px;
+}
