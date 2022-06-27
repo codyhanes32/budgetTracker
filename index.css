@@ -52,3 +52,73 @@ button:hover{
 .break-down-button{
     margin-top: 10px;
 }
+body{
+    background-color:rgb(85, 241, 252);
+}
+
+.content{
+    padding-left: 20vw;
+    margin-top: 50px;
+    padding-bottom: 10vh;
+    background-color: rgb(35, 207, 219);
+    height: 500px;
+    border-radius: 20%;
+}
+
+
+.my-text{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    padding-left: 110px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.expenses-text{
+    color: #3974eb;
+    font-weight: bold;
+    font-size: 120px;
+    margin-top: -62px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.submit-button{
+    margin-top: 60px;
+    margin-left: 150px;
+    height: 70px;
+    width: 200px;
+    font-size: 32px;
+    font-family:'Lucida Sans';
+    border-radius: 30%;
+    border: 2px solid black;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(153, 212, 153);
+}
+
+#catagories{
+    width: 188px;
+    margin-left: 160px;
+}
+
+#expense{
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+#current-date{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}

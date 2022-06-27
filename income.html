@@ -14,26 +14,20 @@
                My
             </div>
             <div class ="expenses-text">
-                Expenses
+                Income
             </div>
             <div id ="current-date">
                 <script>
                     var date = new Date()
-                    var day = date.getUTCDate();
-                    var month = date.getUTCMonth();
-                    var todaysDate = "Date for: " + month + " / " + day;
+                    var monthNumber = date.getUTCMonth();
+                    const month = ["January", "Febuary", "March", "April", "May", "June", "July", "August", 
+                                    "Sepetember", "October", "November", "December"];
+                    var todaysDate = "Month of " + month[monthNumber];
                     document.getElementById("current-date").innerHTML = todaysDate;
                 </script>
             </div>
             <form>
-                <input type="text" id="expense" name="expense" placeholder="Add Expense"><br>
-                <select id="catagories">
-                    <option>---Choose Catagory---</option>
-                    <option>Groceries</option>
-                    <option>Gas</option>
-                    <option>Pets</option>
-                    <option>Entertainment</option>
-                </select>
+                <input type="text" id="expense" name="expense" placeholder="Monthly Income"><br>
             </form>
             <div>
                 <button type="button" class="submit-button">submit</button>
