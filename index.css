@@ -20,13 +20,13 @@ background-color: rgb(174, 224, 240);
     color: #3974eb;
     font-weight: bold;
     font-size: 120px;
-    margin-top: -40px;
+    margin-top: -49px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
 button{
-    margin-left: 110px;
+    margin-left: 100px;
     height: 70px;
     width: 200px;
     font-size: 32px;
@@ -46,5 +46,9 @@ button:hover{
 }
 
 .income-button{
+    margin-top: 10px;
+}
+
+.break-down-button{
     margin-top: 10px;
 }

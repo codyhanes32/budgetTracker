@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(174, 224, 240);
+}
+
+.content{
+    padding-left: 30vw;
+    padding-top: 10vh;
+}
+
+
+.my-text{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    padding-left: 80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+}
+
+.expenses-text{
+    color: #3974eb;
+    font-weight: bold;
+    font-size: 120px;
+    margin-top: -75px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
