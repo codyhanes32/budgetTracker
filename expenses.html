@@ -16,9 +16,17 @@
             <div class ="expenses-text">
                 Expenses
             </div>
+            <div id ="current-date">
+                <script>
+                    var date = new Date()
+                    var day = date.getUTCDate();
+                    var month = date.getUTCMonth();
+                    var todaysDate = "Date for: " + month + " / " + day;
+                    document.getElementById("current-date").innerHTML = todaysDate;
+                </script>
+            </div>
             <form>
-                <label for="add-expense-label">Add Expense</label><br>
-                <input type="text" id="expense" name="expense"><br>
+                <input type="text" id="expense" name="expense" placeholder="Add Expense"><br>
                 <select id="catagories">
                     <option>---Choose Catagory---</option>
                     <option>Groceries</option>
@@ -27,7 +35,9 @@
                     <option>Entertainment</option>
                 </select>
             </form>
+            <div>
+                <button type="button" class="submit-button">submit</button>
+            </div>
         </div>
-        <script src="main.js"></script>
     </body>
 </html>
